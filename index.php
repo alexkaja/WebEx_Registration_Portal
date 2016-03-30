@@ -52,6 +52,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <title>Webex Registration Upload Portal</title>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
     <script src="assets/bootstrap.min.js"></script>
     <link href="assets/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -70,13 +71,13 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </a>
-      <a class="brand">PHP Signup + Bootstrap Example</a>
+      <a class="brand">Webex Registration Upload Portal</a>
       <div class="nav-collapse collapse">
         <ul class="nav pull-right">
           <li><a href="register.php">Register</a></li>
           <li class="divider-vertical"></li>
           <li class="dropdown">
-            <a class="dropdown-toggle" href="#" data-toggle="dropdown">Log In <strong class="caret"></strong></a>
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown">Log In<strong class="caret"></strong></a>
             <div class="dropdown-menu" style="padding: 15px; padding-bottom: 0px;">
                 <form action="login.php" method="post">
                     Username:<br />

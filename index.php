@@ -97,15 +97,19 @@
 </div>
 
 <div class="container hero-unit">
-    <h1>There's secret content to be had within!</h1>
-    <p>But you can't access it just yet! You'll need to log in first. Use Bootstrap's nifty navbar dropdown to access the form.</p>
-    <h2>There are 2 ways you can log in:</h2>
-    <ul>
-        <li>Try out your own user + password with the <strong>Register</strong> button in the navbar.</li>
-        <li>Use the default credentials to save time:<br />
-            <strong>user:</strong> admin<br />
-            <strong>pass:</strong> password<br /></li>
-    </ul>
+    <h2>Please login to portal using the form below or navbar login menu.</h2><br />
+    <?php
+      echo htmlspecialchars($_GET["error"]);
+    ?>
+    <form action="login.php" method="post">
+        Username:<br />
+        <input type="text" name="username" value="<?php echo $submitted_username; ?>" />
+        <br />
+        Password:<br />
+        <input type="password" name="password" value="" />
+        <br /><br />
+        <input type="submit" class="btn btn-info" value="Login" />
+    </form>
 </div>
 </body>
 </html>

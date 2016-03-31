@@ -99,7 +99,7 @@
     <script src="assets/bootstrap.min.js"></script>
     <link href="assets/bootstrap.min.css" rel="stylesheet" media="screen">
     <style type="text/css">
-        body { background: url(assets/bglight.png); }
+        body { background: url(assets/squared_metal.png); }
         .hero-unit { background-color: #fff; }
         .center { display: block; margin: 0 auto; }
     </style>
@@ -126,7 +126,7 @@
 </div>
 
 <div class="container hero-unit">
-    <h1>Register</h1> <br /><br />
+    <h2>Register a new user</h2> <br />
     <form action="register.php" method="post">
         <label>Username:</label>
         <input type="text" name="username" value="" required/>
@@ -134,8 +134,8 @@
         <input type="text" name="fname" value="" required/>
         <label>Last Name:</label>
         <input type="text" name="lname" value="" required/>
-        <label>Email: <strong style="color:darkred;">*</strong></label>
-        <input type="text" name="email" value="" required/>
+        <label>Email:</label>
+        <input type="email" name="email" value="" required/>
         <label>Password:</label>
         <input type="password" name="password" value="" required/> <br /><br />
         <input type="submit" class="btn btn-info" value="Register" />

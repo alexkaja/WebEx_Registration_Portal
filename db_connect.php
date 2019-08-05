@@ -1,5 +1,5 @@
 <?php
-$db = mysql_connect("localhost", "test_user", "barland");
+$db = mysql_connect("localhost", "test_user", $PASSWD);
 
 if(!$db) {
 	die('Could not connect: '. mysql_error());
